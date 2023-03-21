@@ -455,6 +455,8 @@ footer{
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
 }
   .portfolio-tab ul li {
     color: #000;
@@ -476,7 +478,7 @@ footer{
   @media (max-width: 575.98px) {
     .portfolio-tab ul li {
       display: block;
-      margin: 10px auto;
+      margin: 10px 10px;
       max-width: 200px;
     }
   }
