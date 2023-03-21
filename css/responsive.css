@@ -34,6 +34,16 @@
     .slider-btn{
         justify-content: space-between;
     }
+    .navbar-collapse{
+        background: #ffffff;
+    }
+    ul.navbar-nav li {
+        padding: 10px 0px;
+    }
+    .navbar {
+        background: #fff;
+        padding: 15px 0px;
+    }
     /* experince */
     .experience-left {
         position: relative;
@@ -70,10 +80,10 @@
         padding-top: 0px;
     }
 
-.portfolio-grid .portfolio {
+    .portfolio-grid .portfolio {
 
-    width: 50%;
-}
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -104,12 +114,15 @@
     .padding-top {
         padding-top: 30px;
     }
+    .container {
+        width:100%;
+    }
     /* slider */
     .slider-dec p {
         font-size: 14px;
     }
     .contact-me-box {
-        bottom: 4%;
+        bottom: 0%;
         left: 67%;
         width: 100px;
         height: 100px;
@@ -129,7 +142,7 @@
     }
     .slider-follow {
    
-        bottom: -19px;
+        bottom: 0px;
        
         border-radius: 0px;
         margin-bottom: 0;
