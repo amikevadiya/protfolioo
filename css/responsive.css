@@ -1,0 +1,167 @@
+
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    h4{
+        font-size: 26px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 18px;
+    }
+    .padding-top {
+        padding-top: 40px;
+    }
+    .slider-dec{
+        width: 100%;
+    }
+    .btn-default {
+        max-width: 115px;
+        min-width: 110px;
+        padding: 5px;
+        font-size: 17px;
+    }
+    .slider-btn{
+        justify-content: space-between;
+    }
+    /* experince */
+    .experience-left {
+        position: relative;
+        align-items: center;
+    }
+    .experience-left h3 {
+        font-size: 65px;
+    }
+    .experience-box {
+        flex-direction: column;
+    }
+    
+    .experience-right {
+        margin: 10px 0px 0px;
+        padding: 25px;
+    }
+    .experience-box::before{
+        top: 55%;
+    }
+    /* edcuation */
+    .education-box {
+        padding: 30px;
+    }
+    /* contact */
+    .btn-contact{
+        max-width: 245px;
+        min-width: 220px;
+        height: 70px;
+        border-radius: 20px;
+        font-size: 23px;
+    }
+    /* work */
+    .work-top {
+        padding-top: 0px;
+    }
+
+.portfolio-grid .portfolio {
+
+    width: 50%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 23px;
+        line-height: initial;
+    }
+    h5{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 18px;
+    }
+    body{
+        font-size: 16px;
+    }
+    
+    .padding-top {
+        padding-top: 30px;
+    }
+    /* slider */
+    .slider-dec p {
+        font-size: 14px;
+    }
+    .contact-me-box {
+        bottom: 4%;
+        left: 67%;
+        width: 100px;
+        height: 100px;
+        border: 2px solid #ffffff;
+       
+    }
+    .contact-me-box h6{
+        font-size: 12px;
+        margin-bottom:0px;
+    }
+    .contact-mail-round {
+        width: 30px;
+        height: 30px;
+    }
+    .contact-me-box i {
+        font-size: 14px;
+    }
+    .slider-follow {
+   
+        bottom: -19px;
+       
+        border-radius: 0px;
+        margin-bottom: 0;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .slider-follow-box {
+        justify-content: center;
+        display: flex;
+    }
+    .slider-img-box {
+        margin-top: 30px;
+    }
+    /* education */
+   
+    .education-box {
+        padding: 20px;
+    }
+    .education-box::before, .education-box:after{
+        width: 11px;
+    }
+    /* work */
+    .work-img {
+        margin-bottom: 10px;
+       
+    }
+    .work-box {
+        margin-bottom: 40px;
+    }
+    
+   /* footer */
+   footer {
+    margin-bottom: 10px;
+}
+}
